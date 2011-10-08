@@ -1,0 +1,365 @@
+
+body{
+	text-align:center;
+	background: #FFF url(/static/images/bg.png) repeat-x;
+	margin:0;
+}
+#hd{
+	height:48px;
+}
+
+a img{border:0;}
+#ft{clear:both;}
+
+#doc3 {
+	margin:auto; 
+	width:auto;
+}
+	.yui-b{position:relative;}
+	.yui-b{_position:static;} /* for IE < 7 */
+	#yui-main .yui-b{position:static;} 
+
+#yui-main {width:100%;}
+.yui-t3 #yui-main{float:right;margin-left:-66em;/* IE: preserve layout at narrow widths */}
+
+
+/* Right Static */
+.yui-t6 #yui-main{float:left;margin-right:-29em;/* IE: preserve layout at narrow widths */}
+.yui-t6 .yui-b {
+	float:right;
+    width:27.0759em;*width:26.52em;
+
+}
+.yui-t6 #yui-main .yui-b {
+    margin-right:28.0759em;*margin-right:27.52em;
+	background-color:#FFF;
+	border-color:#9EBEDE;
+	border-width:0;
+	border-right-width:2px;
+	border-style:solid;
+	min-width:600px;
+
+}
+
+.yui-t3 .yui-b {
+	float:left;
+    width:54.0759em;*width:53.52em;
+	/*
+		Left thingy!
+	*/
+	background-color:#FFF;
+	border-color:#9EBEDE;
+	border-width:0;
+	border-right-width:2px;
+	border-style:solid;
+	}
+.yui-t3 #yui-main .yui-b {
+    margin-left:55.0759em;*margin-left:54.52em;
+	/*	Right thingy!	*/
+	background-color:transparent;
+	border-width:0;
+}
+
+#content{
+	padding-bottom:20px;
+	text-align:left;
+	padding-top:0;
+}
+
+#yui-main .yui-b {float:none;width:auto;}
+
+
+#ft{
+	background-color:#336699;
+	height:150px;
+}
+
+#ft1, #ft2{
+	width:100%;
+	height:10px;
+}
+#ft1{
+	background-color:#1C3855;
+}
+#ft2{
+	background-color:#28527B;
+}
+
+
+.c a{
+	font-size:13px;
+}
+
+h1 a:link, h1 a:visited{
+	color:#F39 !important;
+	text-decoration:none;
+}
+
+h1 a:hover, h1 a:active{
+	color:red !important;
+}
+
+/*Links*/a:link , a:visited , a:hover , a:active { color : #0070DF; font-weight:normal;}
+a:visited{color:#63A5C9}
+
+.tags{
+	margin:20px;
+	text-align:center;
+	clear:both;
+	line-height:25px;
+}
+
+.tags a:link, .tags a:hover, .tags a:visited, .tags a:hover{
+	font-size:12px !important;
+	text-decoration:none;
+	padding:4px;
+}
+
+.tags a:link, .tags a:visited{
+	background-color:#D9FFFF;
+	color:#09AAD9;
+
+/*	background-color:#D2EEFC;
+	color:#336496;*/
+}
+
+.tags a:hover, .tags a:active{
+	background-color:#7BB5FB;
+	color:#FFF;
+}
+
+body, div{
+	font-family: Verdana, serif;
+	font-size:12px;
+	line-height:17px;
+	color:#333;
+	word-spacing:1px;
+}
+
+.da{
+	color:#CCC
+}
+
+.nw{
+	margin-bottom:40px;
+	padding:10px;
+}
+
+
+.nwa{
+	margin-bottom:80px;
+	padding:20px;
+	padding-top:0;
+}
+
+.c{
+	float:right;
+	padding:10px;
+	width:200px;
+/*	height:35px;*/
+	border-left:1px solid #999;
+	text-align:center;
+	margin:5px;
+}
+
+.c em{
+	
+	font-family: Georgia,serif;
+	font-size: 12px;
+	
+}
+
+#ft div{
+	color:#1C3855;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3{
+	font-family: Georgia,serif;
+	letter-spacing: 1px;
+	font-weight:normal;
+}
+
+h2{
+	font-family: Georgia,serif;
+	letter-spacing: 1px;
+	font-weight:normal;
+	font-size:20px;
+
+	color:#004F84;
+	margin-top:35px;
+}
+
+h3{
+	font-family: Arial,serif;
+	letter-spacing: 1px;
+	font-weight:normal;
+	font-size:16px;
+	color:#004FBB;
+}
+
+h1{
+	font-size: 22px;
+	padding:8px;
+	padding-bottom:0px;
+
+	margin-top:0;
+	clear:both;
+}
+
+h1 em {
+	font-size:14px;
+	color:#999;
+}
+
+/* Paging */
+#navigation{
+	border-top:1px solid #336496;
+	padding-top:15px;
+	width:80%;
+}
+
+#cr{
+	padding-top:25px;
+}
+
+a:hover, h1 a:hover { text-decoration : none; color:#FF33FF}
+
+#ft a:link, #ft a:visited{
+	color:#0098CA;
+}
+
+
+
+/* Right Main Menu */
+#menu{
+	margin:20px;
+	text-align:center;
+}
+
+#menu a:link, #menu a:hover, #menu a:visited, #menu a:hover{
+	font-family:"Trebuchet MS";
+	font-size:15px;
+	text-decoration:none;
+	padding:4px;
+}
+
+#menu a:link, #menu a:visited{
+	background-color:#D2EEFC;
+	color:#336496;
+}
+
+#menu a:hover, #menu a:active{
+	background-color:#7BB5FB;
+	color:#FFF;
+}
+
+
+/* Right Blocks */
+.b1{
+	background-color:;
+	padding:2px;
+/*	border:1px solid #28527B;*/
+	margin:10px;
+	margin-right:20px;
+}
+
+.b2{
+	padding:5px;
+	background-color:;/*  */
+}
+
+/* Form */
+.but{ 
+	background-image: url(http://web.archive.org/web/20071106231653/http://ferruh.mavituna.com/mg/input.gif); 
+	border:0px; 
+	font-size:12px; 
+	font-weight:bold; 
+	color:#666; 
+	font-family:Verdana, Helvetica, Sans-Serif; 
+	width:50px; 
+	height:20px; 
+	padding:2px;
+}
+
+input{ font-family:Verdana, Helvetica, Sans-Serif; font-size:12px; width:100%;}
+ form{ display:inline}
+ 
+
+
+ h1.a{
+	background-color:transparent;
+	background:none;
+	font-size:22px;
+	padding:20px;
+	color:#FF3399;
+	border:0;
+ }
+
+#comments h1{
+	 padding:5px;
+	 padding-left:0;
+}
+
+/* Comments */
+  .comment{ color:#080;}
+   #commentarea{display:inline}
+ #commentarea p a:link , #commentarea p a:visited , #commentarea p a:hover , #commentarea p a:active { color : #5EBEFF; font-weight:normal;text-decoration : none;}
+ #commentarea p a:hover {color:#09F;text-decoration : none; background-color:#ECF5FF}
+ h5{font:12px Verdana, serif; margin:0px 0px 0px 0px; color:#999; background-color:#F7F7F7; padding:3px 0px; border-bottom:solid 1px #CCC}
+ h5 strong{ font:15px Georgia, serif; font-weight:bold; color:#333;}
+ .artimg{border:solid 1px #CCC;padding:10px;text-align:center;background:#F7F7F7}
+ .artimg img{border:solid 1px #CCC;}
+ .blog img{border:solid 1px #CCC; margin:5px; padding:3px;}
+ .ltd{text-align:right}
+
+blockquote, blockquote p{ 
+	/*font-family: "Courier New", Courier, monospace;*/
+	text-align: justify;
+	font-size:12px;
+}
+
+blockquote{
+	background: url(/static/images/blockquote.gif) no-repeat;
+	padding-left:20px;
+}
+ .al{float:left;  margin:0px;}
+
+.ibox { padding:10px; border:1px solid #CCC; background-color:#E6EEF7; font-size:12px; font-family : Tahoma;}
+  .comarea { width:100%; height:60px; font-size:14px; font-family : "Microsoft Sans Serif";}
+
+ .radio{ width:15px;}
+
+#comments{
+	padding:10px;
+	padding-bottom:0;
+}
+
+
+#comments h2{
+	background-color:transparent;
+	background:none;
+	color:#FF3399;
+	border-bottom:1px solid #FF3399;;
+	padding:3px;
+	margin-top:30px;
+	font-size:20px;
+	font-weight:normal;
+ }
+
+#cont{
+	padding:20px;
+}
+
+p{ margin-top:0px; margin-bottom:20px;}
+
+.nw img{
+	padding:4px;
+	border:1px double #9EBEDE !important;
+	margin:10px;
+	margin-top:0;
+}

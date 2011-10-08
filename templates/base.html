@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>{{ escape(handler.settings["blog_title"]) }}</title>
+    <link rel="stylesheet" href="/static/css/blog.css" type="text/css"/>
+    <link rel="alternate" href="/feed" type="application/atom+xml" title="{{ escape(handler.settings["blog_title"]) }}"/>
+    {% block head %}{% end %}
+  </head>
+  <body>
+    <div id="doc3" class="yui-t6">
+
+      <div id="hd">
+          <div style="float:right; margin-right:10px; margin-top:1px;">
+            {% if current_user %}
+              <a href="/compose">{{ _("New post") }}</a> -
+              <a href="/auth/logout?next={{ url_escape(request.uri) }}">{{ _("Sign out") }}</a>
+            {% else %}
+              {{ _('<a href="%(url)s">Sign in</a> to compose/edit') % {"url": "/auth/login?next=" + url_escape(request.uri)} }}
+            {% end %}
+          </div>
+          <!-- <h1><a href="/" style="color:red">{{ escape(handler.settings["blog_title"]) }}</a></h1> -->
+      </div>
+
+      <div id="bd">
+
+        <div id="yui-main">
+          <div class="yui-b">
+            <div id="content">
+              {% block body %}{% end %}
+            </div>
+          </div>
+        </div>
+
+        <div class="yui-b">
+          <div id="menu">
+            <a href="/">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>       
+           <a href="http://twitter.com/burakdede"> <img src="/static/images/avatar.png" width="126" height="150" border="0" alt="Burak Dede"></a>
+        </div>
+      
+        
+        <div id="ft">
+          <div id="ft1">
+          </div>
+          <div id="ft2">
+          </div>
+        </div> 
+         
+      </div>
+      {% block bottom %}{% end %}
+    </div>  
+  </body>
+</html>
